@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    width: 100%;
+    background-color: #466781;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    display: block;
+    margin: 0 15px;
+    padding: 12px;
+    color: #fff;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    background-color: #34434C;
+}
+
+section {
+    padding: 100px;
+}
+
+.banner {
+    position: relative;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(53, 81, 104, 0.7), rgb(0, 0, 0, 0.7)), url(akhi2.jpg);
+    background-size: cover;
+    background-position: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner h2 {
+    font-size: 3em;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
+.banner h2 span {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.banner h3 {
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 500;
+}
+
+.btn {
+    position: relative;
+    background: #2196f3;
+    display: inline-block;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #111;
+}
+
+.heading h2 {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentBx {
+    padding: 30px;
+}
+
+.w50 {
+    min-width: 50%;
+}
+
+img {
+    max-width: 800%;
+}
+
+.services {
+    background: rgb(31, 90, 138);
+}
+
+.heading.white {
+    color: #fff;
+}
+
+.services .content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.services .content .servicesBx {
+    padding: 40px 20px;
+    background: rgb(103, 143, 175);
+    color: #fff;
+    max-width: 340px;
+    margin: 20px;
+    text-align: center;
+}
+
+.services .content .servicesBx:hover {
+    background: #2196f3;
+}
+
+.services .content .servicesBx h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.work {
+    background: #85bdac;
+}
+
+.heading.black {
+    color: #c0ddf0;
+}
+
+.work .content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.work .content .workBx {
+    padding: 40px 20px;
+    background: rgb(103, 143, 175);
+    color: #fff;
+    max-width: 340px;
+    margin: 20px;
+    text-align: center;
+}
+
+
+}
+.work .content .workBx:hover {
+    background: #2196f3;
+}
+.work .content .workBx h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
