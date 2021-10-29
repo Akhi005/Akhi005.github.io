@@ -105,11 +105,12 @@ img {
 }
 
 .services {
-    background: rgb(31, 90, 138);
+    background: linear-gradient(rgba(53, 81, 104, 0.7), rgb(0, 0, 0, 0.7)), url(index.jpg);
+    border: 2px solid #131718;
 }
 
 .heading.white {
-    color: #fff;
+    color: #15c4db;
 }
 
 .services .content {
@@ -121,11 +122,11 @@ img {
 
 .services .content .servicesBx {
     padding: 40px 20px;
-    background: rgb(103, 143, 175);
+    background: rgb(96, 119, 138);
     color: #fff;
-    max-width: 340px;
+    width: 500px;
     margin: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 .services .content .servicesBx:hover {
@@ -138,11 +139,11 @@ img {
 }
 
 .work {
-    background: #85bdac;
+    background: linear-gradient(rgba(27, 46, 61, 0.7), rgb(0, 0, 0, 0.7)), url(skills.jpg);
 }
 
 .heading.black {
-    color: #c0ddf0;
+    color: #0f91e7;
 }
 
 .work .content {
@@ -154,18 +155,17 @@ img {
 
 .work .content .workBx {
     padding: 40px 20px;
-    background: rgb(103, 143, 175);
+    background: rgb(93, 116, 134);
     color: #fff;
-    max-width: 340px;
+    width: 300px;
     margin: 20px;
     text-align: center;
 }
 
-
-}
 .work .content .workBx:hover {
     background: #2196f3;
 }
+
 .work .content .workBx h2 {
     font-size: 20px;
     font-weight: 600;
