@@ -4,7 +4,13 @@
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
+.text-white{
+    color: white;
+}
+.resume-btn{
+    background-color:orange;
+    color:white;
+}
 header ul {
     display: flex;
     justify-content: space-around;
