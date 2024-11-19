@@ -172,7 +172,12 @@ img {
 .heading.black {
     color: #c1d31d;
 }
-
+.projectbox a{
+    text-decoration: none;
+    font-size: 20px;
+    color:antiquewhite;
+    margin:10px
+}
 .work .content {
     display: flex;
     justify-content: space-around;
