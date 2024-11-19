@@ -113,6 +113,7 @@ section {
 .list-achieve,.list-achieve a{
     color:white;
     text-decoration: none;
+    font-size: larger;
 }
 .list-achieve a{
     background-color: aqua;
@@ -152,7 +153,7 @@ img {
     color: #fff;
     width: 500px;
     margin: 20px;
-    text-align: left;
+    text-align: center;
 }
 
 .services .content .servicesBx:hover {
@@ -180,11 +181,12 @@ img {
 }
 
 .work .content .workBx {
-    padding: 40px 20px;
+    padding: 5px;
     background: rgb(110, 109, 107);
     color: #fff;
     width: 300px;
     margin: 20px;
+    border-radius: 9px;
     text-align: center;
 }
 
